@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Leads Peña</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="512x512" href="../icono_ML.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="../icono_ML.png">
+  <meta name="apple-mobile-web-app-title" content="Leads Peña">
+  <style>
+    body{font-family:sans-serif;text-align:center;padding:40px 20px;color:#001489}
+    img{width:120px;height:120px;border-radius:24px}
+    a{display:inline-block;margin-top:20px;padding:12px 24px;background:#001489;color:#fff;border-radius:8px;text-decoration:none}
+  </style>
+  <script>
+    var APP = 'https://script.google.com/macros/s/AKfycbxWQQcPIG21XG6Fi3neoulFVLkEVG5Z3RRbGXpZN-3IWOgMKTKfWK3dx07eYjwhy9gqBw/exec';
+    var standalone = window.navigator.standalone || matchMedia('(display-mode: standalone)').matches;
+    if (standalone || location.search.indexOf('app') > -1) {
+      location.replace(APP);
+    } else {
+      history.replaceState(null, '', '?app');
+    }
+  </script>
+</head>
+<body>
+  <img src="../icono_ML.png" alt="Meta Leads">
+  <h2>Meta Leads · Peña 2200</h2>
+  <p>Para dejar el acceso directo, usá el menú del navegador y elegí "Añadir a pantalla de inicio".</p>
+  <a href="https://script.google.com/macros/s/AKfycbxWQQcPIG21XG6Fi3neoulFVLkEVG5Z3RRbGXpZN-3IWOgMKTKfWK3dx07eYjwhy9gqBw/exec">Abrir la app</a>
+</body>
+</html>
